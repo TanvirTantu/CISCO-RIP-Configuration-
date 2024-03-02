@@ -1,0 +1,18 @@
+Router 01
+Router(config)#router rip 
+Router(config-router)#version 2
+Router(config-router)#network 10.0.0.0
+Router(config-router)#network 30.0.0.0
+
+Router 02
+Router(config)#router rip 
+Router(config-router)#version 2
+Router(config-router)#network 10.0.0.0
+Router(config-router)#network 40.0.0.0
+Router(config-router)#network 20.0.0.0
+
+Router 03
+Router(config)#router rip 
+Router(config-router)#version 2
+Router(config-router)#network 50.0.0.0
+Router(config-router)#network 20.0.0.0
